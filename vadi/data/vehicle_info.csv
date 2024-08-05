@@ -1,0 +1,21 @@
+vehicle_no,type,status,last_maintenance_date
+FL001,Airplane,Active,2024-07-15
+FL002,Airplane,Grounded,2024-06-30
+FL003,Airplane,Active,2024-07-20
+FL004,Airplane,Grounded,2024-07-05
+FL005,Airplane,Active,2024-07-18
+TR001,Truck,Active,2024-07-10
+TR002,Truck,In Maintenance,2024-07-08
+TR003,Truck,Active,2024-07-12
+TR004,Truck,Active,2024-07-14
+TR005,Truck,In Maintenance,2024-07-01
+SH001,Ship,Active,2024-06-25
+SH002,Ship,In Port,2024-07-02
+SH003,Ship,Active,2024-07-07
+SH004,Ship,In Port,2024-07-09
+SH005,Ship,Active,2024-07-11
+BUS001,Bus,Active,2024-07-16
+BUS002,Bus,In Maintenance,2024-07-03
+BUS003,Bus,Active,2024-07-17
+BUS004,Bus,Active,2024-07-19
+BUS005,Bus,In Maintenance,2024-07-04

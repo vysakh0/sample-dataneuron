@@ -1,0 +1,12 @@
+definitions.yml:
+global_aliases:
+  table_aliases:
+    customer_details: cd
+    bookings: bk
+    vehicle_info: vi
+    customers: cust
+  common_terms:
+    - term: "VIN"
+      definition: "Vehicle Identification Number"
+    - term: "DOB"
+      definition: "Date of Birth"

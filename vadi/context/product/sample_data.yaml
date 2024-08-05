@@ -1,0 +1,78 @@
+main.bookings:
+  - booking_date: "2024-07-01"
+    booking_id: "1001"
+    customer_id: "1"
+    status: Confirmed
+    travel_date: "2024-08-15"
+    vehicle_no: FL001
+  - booking_date: "2024-07-02"
+    booking_id: "1002"
+    customer_id: "2"
+    status: Confirmed
+    travel_date: "2024-08-20"
+    vehicle_no: FL003
+  - booking_date: "2024-07-03"
+    booking_id: "1003"
+    customer_id: "3"
+    status: Confirmed
+    travel_date: "2024-08-10"
+    vehicle_no: TR001
+  - booking_date: "2024-07-04"
+    booking_id: "1004"
+    customer_id: "4"
+    status: Confirmed
+    travel_date: "2024-08-25"
+    vehicle_no: SH001
+  - booking_date: "2024-07-05"
+    booking_id: "1005"
+    customer_id: "5"
+    status: Confirmed
+    travel_date: "2024-08-12"
+    vehicle_no: BUS001
+main.customer_details:
+  - customer_id: "1"
+    email: john.doe@email.com
+    membership_level: Gold
+    name: John Doe
+    phone: 555-0101
+  - customer_id: "2"
+    email: jane.smith@email.com
+    membership_level: Silver
+    name: Jane Smith
+    phone: 555-0102
+  - customer_id: "3"
+    email: robert.johnson@email.com
+    membership_level: Bronze
+    name: Robert Johnson
+    phone: 555-0103
+  - customer_id: "4"
+    email: emily.brown@email.com
+    membership_level: Gold
+    name: Emily Brown
+    phone: 555-0104
+  - customer_id: "5"
+    email: michael.wilson@email.com
+    membership_level: Silver
+    name: Michael Wilson
+    phone: 555-0105
+main.vehicle_info:
+  - last_maintenance_date: "2024-07-15"
+    status: Active
+    type: Airplane
+    vehicle_no: FL001
+  - last_maintenance_date: "2024-06-30"
+    status: Grounded
+    type: Airplane
+    vehicle_no: FL002
+  - last_maintenance_date: "2024-07-20"
+    status: Active
+    type: Airplane
+    vehicle_no: FL003
+  - last_maintenance_date: "2024-07-05"
+    status: Grounded
+    type: Airplane
+    vehicle_no: FL004
+  - last_maintenance_date: "2024-07-18"
+    status: Active
+    type: Airplane
+    vehicle_no: FL005

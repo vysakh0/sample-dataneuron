@@ -1,0 +1,30 @@
+table_name: vehicle_info
+schema_name: main
+full_name: main.vehicle_info
+description: Contains information about vehicles including their number, type, status, and maintenance details
+alias: vi
+columns:
+  - name: vehicle_no
+    description: Unique identifier for the vehicle
+    alias: vno
+    type: string
+    primary_key: false
+    nullable: true
+  - name: type
+    description: Type or category of the vehicle
+    alias: vtype
+    type: string
+    primary_key: false
+    nullable: true
+  - name: status
+    description: Current status of the vehicle
+    alias: vstat
+    type: string
+    primary_key: false
+    nullable: true
+  - name: last_maintenance_date
+    description: Date of the last maintenance performed on the vehicle
+    alias: lmd
+    type: string
+    primary_key: false
+    nullable: true

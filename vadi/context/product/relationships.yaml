@@ -1,0 +1,24 @@
+relationships.yaml:
+  - tables:
+      - main.bookings
+      - main.customer_details
+    relationship_type: many-to-one
+    description: A customer can have multiple bookings
+    foreign_key:
+      table: main.bookings
+      column: customer_id
+    reference_key:
+      table: main.customer_details
+      column: customer_id
+
+  - tables:
+      - main.bookings
+      - main.vehicle_info
+    relationship_type: many-to-one
+    description: A vehicle can be booked multiple times
+    foreign_key:
+      table: main.bookings
+      column: vehicle_id
+    reference_key:
+      table: main.vehicle_info
+      column: id

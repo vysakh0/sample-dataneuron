@@ -1,0 +1,21 @@
+customer_id,name,email,phone,membership_level
+1,John Doe,john.doe@email.com,555-0101,Gold
+2,Jane Smith,jane.smith@email.com,555-0102,Silver
+3,Robert Johnson,robert.johnson@email.com,555-0103,Bronze
+4,Emily Brown,emily.brown@email.com,555-0104,Gold
+5,Michael Wilson,michael.wilson@email.com,555-0105,Silver
+6,Sarah Davis,sarah.davis@email.com,555-0106,Bronze
+7,David Miller,david.miller@email.com,555-0107,Gold
+8,Lisa Garcia,lisa.garcia@email.com,555-0108,Silver
+9,James Rodriguez,james.rodriguez@email.com,555-0109,Bronze
+10,Jennifer Martinez,jennifer.martinez@email.com,555-0110,Gold
+11,William Taylor,william.taylor@email.com,555-0111,Silver
+12,Mary Anderson,mary.anderson@email.com,555-0112,Bronze
+13,Christopher Lee,christopher.lee@email.com,555-0113,Gold
+14,Patricia White,patricia.white@email.com,555-0114,Silver
+15,Daniel Harris,daniel.harris@email.com,555-0115,Bronze
+16,Linda Jackson,linda.jackson@email.com,555-0116,Gold
+17,Matthew Clark,matthew.clark@email.com,555-0117,Silver
+18,Elizabeth Lewis,elizabeth.lewis@email.com,555-0118,Bronze
+19,Thomas Moore,thomas.moore@email.com,555-0119,Gold
+20,Margaret Hall,margaret.hall@email.com,555-0120,Silver

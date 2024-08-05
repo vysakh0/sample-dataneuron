@@ -1,0 +1,40 @@
+table_name: customer_details
+schema_name: main
+full_name: main.customer_details
+description: Contains detailed information about customers
+alias: cust_det
+columns:
+  - name: customer_id
+    description: Unique identifier for each customer
+    alias: cust_id
+    type: string
+    primary_key: false
+    nullable: true
+
+  - name: name
+    description: Full name of the customer
+    alias: cust_name
+    type: string
+    primary_key: false
+    nullable: true
+
+  - name: email
+    description: Email address of the customer
+    alias: cust_email
+    type: string
+    primary_key: false
+    nullable: true
+
+  - name: phone
+    description: Phone number of the customer
+    alias: cust_phone
+    type: string
+    primary_key: false
+    nullable: true
+
+  - name: membership_level
+    description: Level of membership for the customer
+    alias: mem_lvl
+    type: string
+    primary_key: false
+    nullable: true

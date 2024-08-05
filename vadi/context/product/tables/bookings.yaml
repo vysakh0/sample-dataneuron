@@ -1,0 +1,28 @@
+table_name: bookings
+full_name: main.bookings
+description: Stores information about customer bookings for vehicle rentals
+alias: bk
+columns:
+  - name: booking_id
+    description: Unique identifier for each booking
+    alias: bid
+    type: string
+    primary_key: true
+    nullable: false
+  - name: customer_id
+    description: Identifier of the customer making the booking
+    alias: cid
+    type: string
+    primary_key: false
+    nullable: false
+  - name: vehicle_no
+    description: Identification number of the vehicle booked
+    alias: vno
+    type: string
+    primary_key: false
+    nullable: false
+  - name: booking_date
+    description: Date when the booking was made
+    alias: bdate
+    type: date
+    primary_key:
